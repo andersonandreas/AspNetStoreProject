@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetStoreProject", "AspNetStoreProject\AspNetStoreProject.csproj", "{E728BCB3-0882-45D9-AAD2-27748BBBC6CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetStoreProject.Tests", "AspNetStoreProject.Tests\AspNetStoreProject.Tests.csproj", "{E85B906A-25E4-4E55-8603-C0E94EAA9E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E728BCB3-0882-45D9-AAD2-27748BBBC6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E728BCB3-0882-45D9-AAD2-27748BBBC6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E728BCB3-0882-45D9-AAD2-27748BBBC6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E728BCB3-0882-45D9-AAD2-27748BBBC6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85B906A-25E4-4E55-8603-C0E94EAA9E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85B906A-25E4-4E55-8603-C0E94EAA9E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85B906A-25E4-4E55-8603-C0E94EAA9E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85B906A-25E4-4E55-8603-C0E94EAA9E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8203CA41-4CBD-4DE5-8D89-C973C8446346}
+	EndGlobalSection
+EndGlobal
