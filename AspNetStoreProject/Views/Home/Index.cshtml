@@ -1,0 +1,14 @@
+﻿@using AspNetStoreProject.Models
+
+@model IQueryable<Product>
+
+@foreach (var p in Model ?? Enumerable.Empty<Product>())
+{
+	<article>
+		<h3>@p.Name</h3>
+		<p>@p.Description</p>
+		<p>@p.Price.ToString("c")</p>
+	</article>
+}
+
+
