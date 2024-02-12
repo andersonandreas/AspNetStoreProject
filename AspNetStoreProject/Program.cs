@@ -21,6 +21,13 @@ builder.Services.AddScoped<IStoreRepository, EFStoreRepository>();
 var app = builder.Build();
 
 app.UseStaticFiles();
+
+// changed the url schema to show for the user
+app.MapControllerRoute("Pagination",
+	"Products/Page{pageProduct}",
+	new { controller = "Home", action = "Index" });
+
+
 app.MapDefaultControllerRoute();
 
 SeedData.MakeSureDbIsPopulated(app);
