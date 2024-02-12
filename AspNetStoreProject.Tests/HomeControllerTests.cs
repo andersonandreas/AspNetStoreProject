@@ -28,7 +28,6 @@ namespace AspNetStoreProject.Tests
 
 
 			// Act
-
 			ProductsListViewModel result = controller.Index()
 				?.ViewData.Model as ProductsListViewModel ?? new();
 
@@ -46,6 +45,7 @@ namespace AspNetStoreProject.Tests
 		[Fact]
 		public void PaginationProducts_PageSize_2_Test()
 		{
+
 			// Arrange
 			var mock = new Mock<IStoreRepository>();
 			mock.Setup(m => m.Products)
